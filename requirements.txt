@@ -1,0 +1,39 @@
+# VOTEX Deployment Requirements
+# Core Environment
+Node.js >= 20.0.0
+MongoDB >= 6.0.0
+npm >= 10.0.0
+
+# Backend Dependencies (Express.js)
+bcryptjs
+cors
+crypto-js
+dotenv
+ethers
+express
+express-rate-limit
+helmet
+jsonwebtoken
+mongoose
+nodemailer
+qrcode
+socket.io
+speakeasy
+
+# Frontend Dependencies (React + Vite)
+react
+react-dom
+react-router-dom
+framer-motion
+three
+@react-three/fiber
+@react-three/drei
+face-api.js
+tailwindcss
+recharts
+socket.io-client
+crypto-js
+
+# Infrastructure
+HARDHAT (Blockchain Development Environment)
+ETHEREUM (Goerli/Sepolia or Local Node)
